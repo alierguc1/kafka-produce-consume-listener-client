@@ -1,0 +1,9 @@
+.list-item {
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Arka plan rengi geçişini yumuşatmak için geçiş efekti ekleme */
+  }
+  
+  .list-item:hover {
+    background-color: lightgray; /* Fare üzerine geldiğinde arka plan rengini değiştir */
+    cursor: pointer;
+  }
